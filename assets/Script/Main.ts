@@ -16,7 +16,7 @@ export default class Helloworld extends cc.Component {
     label: cc.Label = null;
 
     @property
-    text: string = 'hello';
+    text: string = 'hello11';
 
     @property({
         type: cc.Asset
