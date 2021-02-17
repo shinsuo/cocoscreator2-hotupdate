@@ -20,10 +20,10 @@ let gameName = "creatorHotUpDate";//develop or debug or release
  */
 let versionMode = "release";//develop or debug or release
 let version = "1.0.1";//版本号
-let cdnDir = "http://172.16.28.99:8888";
-let packageUrlList = [cdnDir,gameName,native,platform,versionMode];
-let remoteManifestUrlList = [cdnDir,gameName,native,platform,versionMode,"project.manifest"];
-let remoteVersionUrlList = [cdnDir,gameName,native,platform,versionMode,"version.manifest"];
+let cdnDir = "http://172.20.10.11:94";
+let packageUrlList = [cdnDir,gameName,'remote',native,platform,versionMode];
+let remoteManifestUrlList = [cdnDir,gameName,'remote',native,platform,versionMode,"project.manifest"];
+let remoteVersionUrlList = [cdnDir,gameName,'remote',native,platform,versionMode,"version.manifest"];
 var manifest = {
     packageUrl: packageUrlList.join("/"),
     remoteManifestUrl: remoteManifestUrlList.join("/"),
